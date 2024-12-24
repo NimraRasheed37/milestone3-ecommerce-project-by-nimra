@@ -10,6 +10,7 @@ import Link from "next/link";
 
 // Importing useParams hook from 'next/navigation' to unwrap params
 import { useParams } from 'next/navigation';
+import Footer from "@/components/Footer";
 
 const BookDetailsPage = () => {
   // Quantity state for cart
@@ -98,6 +99,7 @@ const BookDetailsPage = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };
