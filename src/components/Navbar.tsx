@@ -44,7 +44,7 @@ const Navbar = () => {
           <Link className="navlinks" href="/contact">Contact us</Link>
         </div>
         <div>
-          <div className="flex md:justify-between items-center gap-10 ml-10">
+          <div className="flex md:justify-between items-center gap-8 ml-10">
             <FaSearch
               size={24}
               className="text-red-800 hover:text-red-600 cursor-pointer"
@@ -52,7 +52,7 @@ const Navbar = () => {
             />
             <FaShoppingCart
               size={24}
-              className="text-red-800 hover:text-red-600 cursor-pointer"
+              className="text-red-800 hover:text-red-600 mr-2 cursor-pointer"
               onClick={() => setIsCartSidebarOpen(!isCartSidebarOpen)}
             />
           </div>
